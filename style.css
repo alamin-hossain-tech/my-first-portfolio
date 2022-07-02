@@ -20,7 +20,7 @@ html {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  min-height: 60rem;
+  min-height: 100vh;
   align-items: center;
   justify-content: center;
   column-gap: 4rem;
@@ -30,10 +30,14 @@ html {
   width: 70%;
   height: auto;
   border-radius: 10px;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.09);
 }
 
 .right-content {
   text-align: center;
+}
+.left-content {
+  text-align: justify;
 }
 
 .primary-header {
